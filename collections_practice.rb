@@ -33,4 +33,5 @@ end
 def sum_array(array)
   array.each do |adder|
     adder.length += adder.length
+  end
 end 
