@@ -38,7 +38,7 @@ def add_s(array)
   i = 0
   array.collect do |plural|
     if i < 2 || i > 2
-      plural[i] = "s"
+      plural[i] = plural << "s"
       i += 1
     end 
   end
