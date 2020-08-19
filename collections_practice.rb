@@ -31,10 +31,5 @@ def find_a(array)
 end
 
 def sum_array(array)
-  i = 0
-  array_length = 0
-  array.each do |adder|
-    array_length += adder[i].length
-    i += 1
-  end
+  array.length.inject
 end 
