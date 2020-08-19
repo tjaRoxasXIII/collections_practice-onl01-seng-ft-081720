@@ -35,5 +35,10 @@ def sum_array(array)
 end 
 
 def add_s(array)
-  
+  i = 0
+  array.collect do |plural|
+    if i < 2 || i > 2
+      array << "s"
+    end 
+  end
 end 
