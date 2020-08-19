@@ -20,4 +20,8 @@ def reverse_array(array)
 end
 
 def kesha_maker(array)
-  
+  name.each do |modify|
+    symbol = "$"
+    modify[2] = symbol
+  end
+end
